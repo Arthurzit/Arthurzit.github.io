@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    background-color: #F3F4F6;
+    
+}
+
+.pet8 {
+    width: 600px;
+    height: 500px; 
+    border-radius: 10px;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .pet8 {
+      width: 70%;
+      height: 30%;
+     
+    }
+  }
